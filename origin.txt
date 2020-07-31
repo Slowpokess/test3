@@ -1,0 +1,140 @@
+Uri: https://obsachfebeadelo.ru/
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\index.htm
+Content Type: text/html
+
+Uri: https://obsachfebeadelo.ru/img/favicon.ico
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\img\favicon.ico
+Content Type: image/x-icon
+
+Uri: https://obsachfebeadelo.ru/css/bootstrap.min.css
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://obsachfebeadelo.ru/css/main.min.css
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\css\main.min.css
+Content Type: text/css
+
+Uri: https://obsachfebeadelo.ru/policy.html
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\policy.html
+Content Type: text/html
+
+Uri: https://obsachfebeadelo.ru/agreement.html
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\agreement.html
+Content Type: text/html
+
+Uri: https://obsachfebeadelo.ru/img/reg-footer-item-one.png
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\img\reg-footer-item-one.png
+Content Type: image/png
+
+Uri: https://obsachfebeadelo.ru/img/reg-footer-item-two.png
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\img\reg-footer-item-two.png
+Content Type: image/png
+
+Uri: https://obsachfebeadelo.ru/img/reg-footer-item-three.png
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\img\reg-footer-item-three.png
+Content Type: image/png
+
+Uri: https://obsachfebeadelo.ru/img/reg-footer-item-four.png
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\img\reg-footer-item-four.png
+Content Type: image/png
+
+Uri: https://obsachfebeadelo.ru/img/reg-footer-item-five.png
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\img\reg-footer-item-five.png
+Content Type: image/png
+
+Uri: https://obsachfebeadelo.ru/img/main-logo.png
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\img\main-logo.png
+Content Type: image/png
+
+Uri: https://obsachfebeadelo.ru/video/i.mp4
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\video\i.mp4
+Content Type: video/mp4
+
+Uri: https://obsachfebeadelo.ru/img/main-footer-item-one.png
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\img\main-footer-item-one.png
+Content Type: image/png
+
+Uri: https://obsachfebeadelo.ru/img/main-footer-item-two.png
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\img\main-footer-item-two.png
+Content Type: image/png
+
+Uri: https://obsachfebeadelo.ru/img/main-footer-item-three.png
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\img\main-footer-item-three.png
+Content Type: image/png
+
+Uri: https://obsachfebeadelo.ru/img/main-footer-item-four.png
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\img\main-footer-item-four.png
+Content Type: image/png
+
+Uri: https://obsachfebeadelo.ru/img/main-footer-item-five.png
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\img\main-footer-item-five.png
+Content Type: image/png
+
+Uri: https://obsachfebeadelo.ru/js/jquery.min.js
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\js\jquery.min.js
+Content Type: application/javascript
+
+Uri: https://obsachfebeadelo.ru/js/bootstrap.min.js
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\js\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: https://obsachfebeadelo.ru/js/main.js
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\js\main.js
+Content Type: application/javascript
+
+Uri: https://obsachfebeadelo.ru/img/ibg.jpg
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\img\ibg.jpg
+Content Type: image/jpeg
+
+Uri: https://obsachfebeadelo.ru/img/main-form-right-arrow.png
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\img\main-form-right-arrow.png
+Content Type: image/png
+
+Uri: https://obsachfebeadelo.ru/img/main-form-left-arrow.png
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\img\main-form-left-arrow.png
+Content Type: image/png
+
+Uri: https://obsachfebeadelo.ru/img/main-form-button.png
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\img\main-form-button.png
+Content Type: image/png
+
+Uri: https://obsachfebeadelo.ru/img/close-icon.png
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\img\close-icon.png
+Content Type: image/png
+
+Uri: https://obsachfebeadelo.ru/img/rbg.jpg
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\img\rbg.jpg
+Content Type: image/jpeg
+
+Uri: https://obsachfebeadelo.ru/img/step-one.png
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\img\step-one.png
+Content Type: image/png
+
+Uri: https://obsachfebeadelo.ru/img/step-two.png
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\img\step-two.png
+Content Type: image/png
+
+Uri: https://obsachfebeadelo.ru/img/step-three.png
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\img\step-three.png
+Content Type: image/png
+
+Uri: https://obsachfebeadelo.ru/img/step-four.png
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\img\step-four.png
+Content Type: image/png
+
+Uri: https://obsachfebeadelo.ru/img/done-reviews-bg.png
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\img\done-reviews-bg.png
+Content Type: image/png
+
+Uri: https://obsachfebeadelo.ru/img/main-two-form-arrow.png
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\img\main-two-form-arrow.png
+Content Type: image/png
+
+Uri: https://obsachfebeadelo.ru/img/how-bg.png
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\img\how-bg.png
+Content Type: image/png
+
+Uri: https://obsachfebeadelo.ru/img/form-bg.jpg
+File Name: c:\Downloaded Web Sites\obsachfebeadelo.ru\img\form-bg.jpg
+Content Type: image/jpeg
+
