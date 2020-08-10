@@ -1,7 +1,8 @@
 .modal-wr{
+    background-color: blue;
 	width: 140px;
     float: left;
-    color: blue;
+    
 }
 
 #form_message{
@@ -24,5 +25,6 @@
 }
 
 #form_message h2{
-	text-align: center;
+    text-align: center;
+    
 }
