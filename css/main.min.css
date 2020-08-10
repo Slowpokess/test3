@@ -397,7 +397,7 @@ body footer ul.menu_footer a {
      background-color: rgba(189, 188, 202, 0.92);
      width: 74%;
      height: 100%;
-     z-index: 9; 9; */
+     z-index: 9; 
      /* opacity: initial; */
      -webkit-transition: 0.4s;
      transition: 0.4s;
@@ -406,7 +406,7 @@ body footer ul.menu_footer a {
 }
 
 .modal_wr .closing {
-     position: absolute;
+     position: right;
      width: 100%;
      height: 100%;
      z-index: auto;
@@ -439,11 +439,11 @@ body footer ul.menu_footer a {
 .modal_wr .modal_close_wr .modal__form_items.flex img {
      display: block;
      height: 26px;
-     margin-bottom: inheritpx
+     margin-bottom: 26px;
 }
 
 .modal_wr.active {
-     /* display: grid; */
+     display: ; 
 }
 
 .modal_wr .modal_cont {
@@ -465,13 +465,13 @@ body footer ul.menu_footer a {
 }
 
 .modal_wr .modal__close {
-     width: auto%;
-     text-align: right
+     width: auto;
+     text-align: right;
 }
 
 .modal_wr .modal__close a {
      display: inline-block;
-     width: max-content1px;
+     width: max-content;
      height: 11px;
      background: url(../img/close-icon.png) center center no-repeat
 }
