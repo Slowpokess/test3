@@ -1,33 +1,36 @@
-<meta http-equiv='refresh' content='3; url=http://obsachfebeadelo.ml/#'>
-<meta charset="UTF-8" />
 <?php
+// define variables and set to empty values
+$nameErr = $emailErr = "";
+$name = $email = "";
 
-	if (isset($_POST['name']) && $_POST['name'] != "")//если существует атрибут NAME и он не пустой то создаем переменную для отправки сообщения
-		$name = $_POST['name'];
-	else die ("Не заполнено поле \"Имя\"");//если же атрибут пустой или не существует то завершаем выполнение скрипта и выдаем ошибку пользователю.
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  if (empty($_POST["name"])) {
+    $nameErr = "Name is required";
+  } else {
+    $name = test_input($_POST["name"]);
+    // check if name only contains letters and whitespace
+    if (!preg_match("/^[a-zA-Z ]*$/",$name)) {
+      $nameErr = "Only letters and white space allowed";
+    }
+  }
+  
+  if (empty($_POST["email"])) {
+    $emailErr = "Email is required";
+  } else {
+    $email = test_input($_POST["email"]);
+    // check if e-mail address is well-formed
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+      $emailErr = "Invalid email format";
+    }
+  }
+    
+ 
 
-	if (isset($_POST['email']) && $_POST['email'] != "") //тут все точно так же как и в предыдущем случае
-		$email = $_POST['email'];
-	else die ("Не заполнено поле \"Email\"");
-
-	if (isset($_POST['subjects']) && $_POST['subjects'] != "") 
-		$sub = $_POST['subjects'];
-	else die ("Не заполнено поле \"Тема\"");
-
-	if (isset($_POST['message']) && $_POST['message'] != "") 
-		$body = $_POST['message'];
-	else die ("Не заполнено поле \"Сообщение\"");
-	 
-
-
-	$address = "mynutty1love@gmail.com";//адрес куда будет отсылаться сообщение для администратора
-	$mes  = "Имя: $name \n";	//в этих строчках мы заполняем текст сообщения. С помощью оператора .= мы просто дополняем текст в переменную
-	$mes .= "E-mail: $email \n";
- 	$mes .= "Тема: $sub \n";
- 	$mes .= "Текст: $body"; 
-	$send = mail ($address,$sub,$mes,"Content-type:text/plain; charset = UTF-8\r\nFrom:$email");//собственно сам вызов функции отправки сообщения на сервере
-
-	if ($send) //проверяем, отправилось ли сообщение
-		echo "Сообщение отправлено успешно! Перейти на <a href='https://You-hands.ru/'>you-hands.ru</a>, если вас не перенаправило вручную.";
-	else 
-		echo "Ошибка, сообщение не отправлено! Возможно, проблемы на сервере";
+function test_input($data) {
+  $data = trim($data);
+  $data = stripslashes($data);
+  $data = htmlspecialchars($data);
+  return $data; 
+}
+}
+?>
