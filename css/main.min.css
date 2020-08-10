@@ -390,26 +390,26 @@ body footer ul.menu_footer a {
 }
 
 .modal_wr {
-     display: none;
-     position: fixed;
-     top: 0;
-     left: 0;
-     background-color: rgba(31, 16, 243, 0.75);
-     width: 100%;
+     /* display: inline; */
+     position: absolute;
+     top: 25%;
+     left: 85px;
+     background-color: rgba(189, 188, 202, 0.92);
+     width: 74%;
      height: 100%;
-     z-index: 9;
-     opacity: 0;
+     z-index: 9; 9; */
+     /* opacity: initial; */
      -webkit-transition: 0.4s;
      transition: 0.4s;
      -webkit-animation: showModal 1.5s 0s both;
-     animation: showModal 1.5s 0s both
+     animation: showModal 1.5s 0s both;
 }
 
 .modal_wr .closing {
      position: absolute;
      width: 100%;
      height: 100%;
-     z-index: 1
+     z-index: auto;
 }
 
 .modal_wr .modal_close_wr {
@@ -438,46 +438,46 @@ body footer ul.menu_footer a {
 
 .modal_wr .modal_close_wr .modal__form_items.flex img {
      display: block;
-     height: 25px;
-     margin-bottom: 5px
+     height: 26px;
+     margin-bottom: inheritpx
 }
 
 .modal_wr.active {
-     display: block
+     /* display: grid; */
 }
 
 .modal_wr .modal_cont {
      position: relative;
      z-index: 2;
-     max-height: 99vh;
+     max-height: 77vh;
      overflow-y: auto;
      width: 95%;
-     max-width: 535px
+     max-width: max-content;
 }
 
 .modal_wr .modal__title {
      font-size: 24px;
      font-weight: 700;
-     color: #1EACF5;
+     color: #032333e3;
      text-align: center;
      margin-bottom: 10px;
-     line-height: 24px
+     line-height: 29px
 }
 
 .modal_wr .modal__close {
-     width: 100%;
+     width: auto%;
      text-align: right
 }
 
 .modal_wr .modal__close a {
      display: inline-block;
-     width: 11px;
+     width: max-content1px;
      height: 11px;
      background: url(../img/close-icon.png) center center no-repeat
 }
 
 .modal_wr .modal__form {
-     background-color: rgb(158, 154, 154);
+     background-color: #10cc1b;
      text-align: center;
      padding: 5px 65px 15px;
      border-bottom-left-radius: 3px;
@@ -508,14 +508,14 @@ body footer ul.menu_footer a {
 .modal_wr .modal__form .header__button button:hover {
      margin-top: -7px;
      -webkit-box-shadow: 0 7px 15px 0 #1EACF5;
-     box-shadow: 0 7px 15px 0 #1EACF5;
+     box-shadow: 0 7px 15px 0 #021823;
      margin-bottom: 7px
 }
 
 .modal_wr .modal__form_title {
      text-align: center;
      margin-bottom: 15px;
-     color: #000;
+     color: #ec1e1e;
      font-size: 16px;
      line-height: 18px
 }
@@ -527,7 +527,7 @@ body footer ul.menu_footer a {
 }
 
 .modal_wr .modal__form_field input {
-     background-color: #ededed;
+     background-color: #171414;
      border: none;
      width: 100%;
      padding-left: 40px;
@@ -566,7 +566,7 @@ body footer ul.menu_footer a {
 
 @keyframes showModal {
      to {
-          opacity: 1
+          /* opacity: 1 */
      }
 }
 
