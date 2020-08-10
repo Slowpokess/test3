@@ -1,10 +1,11 @@
 .modal-wr{
 	width: 140px;
-	float: center;
+    float: left;
+    color: blue;
 }
 
 #form_message{
-	box-shadow: 0 0 10px rgba(48, 81, 230, 0.5);
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 	border-radius: 5px;
 	margin:10px;
 	padding: 10px;
