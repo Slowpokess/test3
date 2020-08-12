@@ -141,7 +141,7 @@ body .container .button_yes {
      z-index: 1;
      cursor: pointer;
      width: 100%;
-     top: 0;
+     top: center;
      padding-top: 5px;
      padding-bottom: 5px;
      border-radius: 3px;
