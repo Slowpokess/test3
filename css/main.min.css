@@ -141,7 +141,7 @@ body .container .button_yes {
      z-index: 1;
      cursor: pointer;
      width: 100%;
-     top: center;
+     top: 0;
      padding-top: 5px;
      padding-bottom: 5px;
      border-radius: 3px;
@@ -390,26 +390,26 @@ body footer ul.menu_footer a {
 }
 
 .modal_wr {
-     /* display: inline; */
-     position: absolute;
-     top: 25%;
-     left: 85px;
-     background-color: rgba(189, 188, 202, 0.92);
-     width: 74px;
+     display: none;
+     position: fixed;
+     top: 0;
+     left: 0;
+     background-color: rgba(0, 0, 0, 0.75);
+     width: 100%;
      height: 100%;
-     z-index: 9; 
-     /* opacity: initial; */
+     z-index: 9;
+     opacity: 0;
      -webkit-transition: 0.4s;
      transition: 0.4s;
      -webkit-animation: showModal 1.5s 0s both;
-     animation: showModal 1.5s 0s both;
+     animation: showModal 1.5s 0s both
 }
 
 .modal_wr .closing {
-     position: right;
+     position: absolute;
      width: 100%;
      height: 100%;
-     z-index: auto;
+     z-index: 1
 }
 
 .modal_wr .modal_close_wr {
@@ -438,46 +438,46 @@ body footer ul.menu_footer a {
 
 .modal_wr .modal_close_wr .modal__form_items.flex img {
      display: block;
-     height: 26px;
-     margin-bottom: 26px;
+     height: 25px;
+     margin-bottom: 5px
 }
 
 .modal_wr.active {
-     display: 
+     display: block
 }
 
 .modal_wr .modal_cont {
      position: relative;
      z-index: 2;
-     max-height: 77vh;
+     max-height: 99vh;
      overflow-y: auto;
      width: 95%;
-     max-width: max-content;
+     max-width: 535px
 }
 
 .modal_wr .modal__title {
      font-size: 24px;
      font-weight: 700;
-     color: #032333e3;
+     color: #1EACF5;
      text-align: center;
      margin-bottom: 10px;
-     line-height: 29px
+     line-height: 24px
 }
 
 .modal_wr .modal__close {
-     width: auto;
-     text-align: right;
+     width: 100%;
+     text-align: right
 }
 
 .modal_wr .modal__close a {
      display: inline-block;
-     width: max-content;
+     width: 11px;
      height: 11px;
      background: url(../img/close-icon.png) center center no-repeat
 }
 
 .modal_wr .modal__form {
-     background-color: #10cc1b;
+     background-color: #fff;
      text-align: center;
      padding: 5px 65px 15px;
      border-bottom-left-radius: 3px;
@@ -508,14 +508,14 @@ body footer ul.menu_footer a {
 .modal_wr .modal__form .header__button button:hover {
      margin-top: -7px;
      -webkit-box-shadow: 0 7px 15px 0 #1EACF5;
-     box-shadow: 0 7px 15px 0 #021823;
+     box-shadow: 0 7px 15px 0 #1EACF5;
      margin-bottom: 7px
 }
 
 .modal_wr .modal__form_title {
      text-align: center;
      margin-bottom: 15px;
-     color: #ec1e1e;
+     color: #000;
      font-size: 16px;
      line-height: 18px
 }
@@ -527,7 +527,7 @@ body footer ul.menu_footer a {
 }
 
 .modal_wr .modal__form_field input {
-     background-color: #171414;
+     background-color: #ededed;
      border: none;
      width: 100%;
      padding-left: 40px;
@@ -566,7 +566,7 @@ body footer ul.menu_footer a {
 
 @keyframes showModal {
      to {
-          /* opacity: 1 */
+          opacity: 1
      }
 }
 
