@@ -395,7 +395,7 @@ body footer ul.menu_footer a {
      top: 25%;
      left: 85px;
      background-color: rgba(189, 188, 202, 0.92);
-     width: 74%;
+     width: 74px;
      height: 100%;
      z-index: 9; 
      /* opacity: initial; */
@@ -443,7 +443,7 @@ body footer ul.menu_footer a {
 }
 
 .modal_wr.active {
-     display: ; 
+     display: 
 }
 
 .modal_wr .modal_cont {
